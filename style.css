@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 5px 3px;
+    margin-bottom: 15px;
+}
+span{
+    margin: 0px 5px;
+}
+body{
+    height: 100vh;
+    background-color: #F6F8F9;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+#container{
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+}
+
+nav{
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bottone1{
+    padding: 6px 12px;
+    color: white;
+    background-color: #47ADF1;
+    border-radius: 5px;
+    border: 1px solid  #47ADF1;
+}
+#bottone2{
+    padding: 6px 12px;
+    color: #C5CBD0;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #C5CBD0;
+}
+
+hr{
+    border-top: 1px solid #C5CBD0;
+}
+section{
+    padding: 0px 50px;
+    padding-top: 10px;
+}
+
+.check{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6BC4AE;
+    border-radius: 50%;
+    color: #6BC4AE;
+}
+
+.Editorial::after{
+    content: 'Editorial';
+    border: 1px solid #45ABEA;
+    color: white;
+    background-color: #45ABEA;
+    padding: 2px 2px;
+    border-radius: 6px;
+    vertical-align:sub;
+}
+
+.Q1goals::after{
+    content: 'Q1 Goals';
+    border: 1px solid #9C72E4;
+    color: white;
+    background-color: #9C72E4;
+    padding: 2px 2px;
+    border-radius: 6px;
+    vertical-align:sub;
+}
+
+.cross{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E73D36;
+    border-radius: 50%;
+    color: #E73D36;
+}
+.Recruiting::after{
+    content: 'Recruiting';
+    border: 1px solid #64C0A9;
+    color: white;
+    background-color: #64C0A9;
+    padding: 2px 2px;
+    border-radius: 6px;
+    vertical-align:sub;
+}
+.Mobile::after{
+    content: 'Mobile';
+    border: 1px solid #F29E33;
+    color: white;
+    background-color: #F29E33;
+    padding: 2px 2px;
+    border-radius: 6px;
+    vertical-align:sub;
+}
+.none{
+    padding: 2px 0.5px;
+}
+
+.Website::after{
+    content: 'Website';
+    border: 1px solid #D863A1;
+    color: white;
+    background-color: #D863A1;
+    padding: 2px 2px;
+    border-radius: 6px;
+    vertical-align:sub;
+}
+.Sales::after{
+    content: 'Sales';
+    border: 1px solid #B0C926;
+    color: white;
+    background-color: #B0C926;
+    padding: 2px 2px;
+    border-radius: 6px;
+    vertical-align:sub;
+}
